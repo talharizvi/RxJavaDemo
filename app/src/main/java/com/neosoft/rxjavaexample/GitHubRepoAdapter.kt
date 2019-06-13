@@ -19,7 +19,7 @@ class GitHubRepoAdapter:BaseAdapter() {
         return view
     }
 
-    override fun getItem(position: Int): Any? {
+    override fun getItem( position: Int): Any? {
          //To change body of created functions use File | Settings | File Templates.
         if (position < 0 || position >= gitHubRepos.size){
             return null
